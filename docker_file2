@@ -20,3 +20,4 @@ RUN useradd -u 1000 -d /home/yh -m -g yh -G adm,sudo,audio yh
 EXPOSE 8900
 EXPOSE 22
 CMD  /luo.sh
+CMD systemctl start sshd
